@@ -1,7 +1,7 @@
 # Credit Risk Analysis
 
 ## Overview of the analysis: 
-Credit risk is an inherently unbalanced classification problem therefore different techniques were employed to train and evaluate models with unbalanced classes. Using the credit card credit dataset from LendingClub, we oversampled the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, we used a combinatorial approach of over- and undersampling using the SMOTEENN algorithm. Then two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, were to predict credit risk. 
+Credit risk is an inherently unbalanced classification problem therefore different techniques were employed to train and evaluate models with unbalanced classes. Using the credit card credit dataset from LendingClub, we oversampled the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, we used a combinatorial approach of over- and undersampling using the SMOTEENN algorithm. Then two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, were used to predict credit risk. 
 
 ## Results: 
 The native random sampler was 64% accurate 
